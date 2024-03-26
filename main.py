@@ -47,4 +47,4 @@ def delete_item(item_id: int):
     if data.data:
         return {"message": "Item deleted successfully"}
     else:
-        raise HTTPException(status_code=404, detail="Item not found"
+        raise HTTPException(status_code=404, detail="Item not found")
